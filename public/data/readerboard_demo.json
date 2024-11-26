@@ -1,0 +1,338 @@
+[
+    {
+        "Event Name": "Marina Strategy Session",
+        "Room Name": "Marina Room",
+        "Time Range": "7:00 AM - 9:00 AM",
+        "Meeting Name": "Strategic Planning"
+    },
+    {
+        "Event Name": "Coronado Conference",
+        "Room Name": "Coronado A",
+        "Time Range": "7:00 AM - 8:00 AM",
+        "Meeting Name": "Welcome Session"
+    },
+    {
+        "Event Name": "Coronado Conference",
+        "Room Name": "Coronado B",
+        "Time Range": "8:00 AM - 9:00 AM",
+        "Meeting Name": "Keynote Presentation"
+    },
+    {
+        "Event Name": "Coronado Conference",
+        "Room Name": "Coronado C",
+        "Time Range": "9:00 AM - 10:00 AM",
+        "Meeting Name": "Panel Discussion"
+    },
+    {
+        "Event Name": "Coronado Conference",
+        "Room Name": "Regatta A",
+        "Time Range": "10:00 AM - 11:00 AM",
+        "Meeting Name": "Breakout Session A"
+    },
+    {
+        "Event Name": "Coronado Conference",
+        "Room Name": "Regatta B",
+        "Time Range": "10:00 AM - 11:00 AM",
+        "Meeting Name": "Breakout Session B"
+    },
+    {
+        "Event Name": "Harbor Business Summit",
+        "Room Name": "Harbor A",
+        "Time Range": "7:00 AM - 8:00 AM",
+        "Meeting Name": "Opening Remarks"
+    },
+    {
+        "Event Name": "Harbor Business Summit",
+        "Room Name": "Harbor B",
+        "Time Range": "8:00 AM - 9:00 AM",
+        "Meeting Name": "Market Trends"
+    },
+    {
+        "Event Name": "Harbor Business Summit",
+        "Room Name": "Harbor C",
+        "Time Range": "9:00 AM - 10:00 AM",
+        "Meeting Name": "Tech Innovations"
+    },
+    {
+        "Event Name": "Harbor Business Summit",
+        "Room Name": "Harbor D",
+        "Time Range": "10:00 AM - 11:00 AM",
+        "Meeting Name": "Leadership Panel"
+    },
+    {
+        "Event Name": "Harbor Business Summit",
+        "Room Name": "Grand A",
+        "Time Range": "7:00 AM - 8:00 AM",
+        "Meeting Name": "Finance Workshop"
+    },
+    {
+        "Event Name": "Harbor Business Summit",
+        "Room Name": "Grand B",
+        "Time Range": "8:00 AM - 9:00 AM",
+        "Meeting Name": "Marketing Strategies"
+    },
+    {
+        "Event Name": "Harbor Business Summit",
+        "Room Name": "Grand C",
+        "Time Range": "9:00 AM - 10:00 AM",
+        "Meeting Name": "Networking"
+    },
+    {
+        "Event Name": "Harbor Business Summit",
+        "Room Name": "Grand D",
+        "Time Range": "10:00 AM - 11:00 AM",
+        "Meeting Name": "Future Planning"
+    },
+    {
+        "Event Name": "Harbor Business Summit",
+        "Room Name": "Grand AB",
+        "Time Range": "7:00 AM - 8:00 AM",
+        "Meeting Name": "Sustainability Talk"
+    },
+    {
+        "Event Name": "Harbor Business Summit",
+        "Room Name": "Grand BC",
+        "Time Range": "8:00 AM - 9:00 AM",
+        "Meeting Name": "Startup Showcase"
+    },
+    {
+        "Event Name": "Seaport Leadership Forum",
+        "Room Name": "Seaport A",
+        "Time Range": "7:00 AM - 8:00 AM",
+        "Meeting Name": "Team Building"
+    },
+    {
+        "Event Name": "Seaport Leadership Forum",
+        "Room Name": "Seaport B",
+        "Time Range": "8:00 AM - 9:00 AM",
+        "Meeting Name": "Conflict Resolution"
+    },
+    {
+        "Event Name": "Seaport Leadership Forum",
+        "Room Name": "Seaport C",
+        "Time Range": "9:00 AM - 10:00 AM",
+        "Meeting Name": "Communication Skills"
+    },
+    {
+        "Event Name": "Seaport Leadership Forum",
+        "Room Name": "Seaport D",
+        "Time Range": "10:00 AM - 11:00 AM",
+        "Meeting Name": "Goal Setting"
+    },
+    {
+        "Event Name": "Seaport Leadership Forum",
+        "Room Name": "Balboa A",
+        "Time Range": "7:00 AM - 8:00 AM",
+        "Meeting Name": "HR Updates"
+    },
+    {
+        "Event Name": "Seaport Leadership Forum",
+        "Room Name": "Balboa B",
+        "Time Range": "8:00 AM - 9:00 AM",
+        "Meeting Name": "IT Security"
+    },
+    {
+        "Event Name": "Seaport Leadership Forum",
+        "Room Name": "Balboa C",
+        "Time Range": "9:00 AM - 10:00 AM",
+        "Meeting Name": "Legal Compliance"
+    },
+    {
+        "Event Name": "Seaport Leadership Forum",
+        "Room Name": "Gaslamp A",
+        "Time Range": "10:00 AM - 11:00 AM",
+        "Meeting Name": "Case Studies"
+    },
+    {
+        "Event Name": "Seaport Leadership Forum",
+        "Room Name": "Gaslamp B",
+        "Time Range": "7:00 AM - 8:00 AM",
+        "Meeting Name": "Coaching Techniques"
+    },
+    {
+        "Event Name": "Seaport Leadership Forum",
+        "Room Name": "Gaslamp C",
+        "Time Range": "8:00 AM - 9:00 AM",
+        "Meeting Name": "Decision-Making"
+    },
+    {
+        "Event Name": "Seaport Leadership Forum",
+        "Room Name": "Gaslamp D",
+        "Time Range": "9:00 AM - 10:00 AM",
+        "Meeting Name": "Project Management"
+    },
+    {
+        "Event Name": "Seaport Leadership Forum",
+        "Room Name": "Old Town A",
+        "Time Range": "10:00 AM - 11:00 AM",
+        "Meeting Name": "Innovation Strategies"
+    },
+    {
+        "Event Name": "Seaport Leadership Forum",
+        "Room Name": "Old Town B",
+        "Time Range": "7:00 AM - 8:00 AM",
+        "Meeting Name": "Executive Coaching"
+    },
+    {
+        "Event Name": "Seaport Leadership Forum",
+        "Room Name": "La Jolla A",
+        "Time Range": "8:00 AM - 9:00 AM",
+        "Meeting Name": "Global Perspectives"
+    },
+    {
+        "Event Name": "Seaport Leadership Forum",
+        "Room Name": "La Jolla B",
+        "Time Range": "9:00 AM - 10:00 AM",
+        "Meeting Name": "Financial Leadership"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Bankers Hill",
+        "Time Range": "7:00 AM - 8:00 AM",
+        "Meeting Name": "Opening Networking"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Cortez Hill A",
+        "Time Range": "8:00 AM - 9:00 AM",
+        "Meeting Name": "Speed Networking"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Cortez Hill B",
+        "Time Range": "9:00 AM - 10:00 AM",
+        "Meeting Name": "Panel Discussion"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Cortez Hill C",
+        "Time Range": "10:00 AM - 11:00 AM",
+        "Meeting Name": "Workshops"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Hillcrest A",
+        "Time Range": "7:00 AM - 8:00 AM",
+        "Meeting Name": "Executive Insights"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Hillcrest B",
+        "Time Range": "8:00 AM - 9:00 AM",
+        "Meeting Name": "Roundtable Discussions"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Hillcrest C",
+        "Time Range": "9:00 AM - 10:00 AM",
+        "Meeting Name": "Keynote Talk"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Hillcrest D",
+        "Time Range": "10:00 AM - 11:00 AM",
+        "Meeting Name": "Lunch Break"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Golden Hill A",
+        "Time Range": "7:00 AM - 8:00 AM",
+        "Meeting Name": "Mentorship Programs"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Golden Hill B",
+        "Time Range": "8:00 AM - 9:00 AM",
+        "Meeting Name": "Career Development"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Torrey Hills A",
+        "Time Range": "9:00 AM - 10:00 AM",
+        "Meeting Name": "Community Outreach"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Torrey Hills B",
+        "Time Range": "10:00 AM - 11:00 AM",
+        "Meeting Name": "Closing Remarks"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Ocean Beach",
+        "Time Range": "7:00 AM - 8:00 AM",
+        "Meeting Name": "Workshop A"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Solana Beach A",
+        "Time Range": "8:00 AM - 9:00 AM",
+        "Meeting Name": "Workshop B"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Solana Beach B",
+        "Time Range": "9:00 AM - 10:00 AM",
+        "Meeting Name": "Workshop C"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Mission Beach A",
+        "Time Range": "10:00 AM - 11:00 AM",
+        "Meeting Name": "Workshop D"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Mission Beach B",
+        "Time Range": "7:00 AM - 8:00 AM",
+        "Meeting Name": "Workshop E"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Mission Beach C",
+        "Time Range": "8:00 AM - 9:00 AM",
+        "Meeting Name": "Workshop F"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Promenade A",
+        "Time Range": "9:00 AM - 10:00 AM",
+        "Meeting Name": "Networking Panel"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Promenade B",
+        "Time Range": "10:00 AM - 11:00 AM",
+        "Meeting Name": "Breakout Session"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Pier",
+        "Time Range": "7:00 AM - 8:00 AM",
+        "Meeting Name": "Welcome Remarks"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Cove",
+        "Time Range": "8:00 AM - 9:00 AM",
+        "Meeting Name": "Future Planning"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Peak Room",
+        "Time Range": "9:00 AM - 10:00 AM",
+        "Meeting Name": "Strategic Session"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Third Floor Room 1",
+        "Time Range": "10:00 AM - 11:00 AM",
+        "Meeting Name": "Wrap-up"
+    },
+    {
+        "Event Name": "Hillside Networking Event",
+        "Room Name": "Third Floor Room 2",
+        "Time Range": "7:00 AM - 8:00 AM",
+        "Meeting Name": "Feedback Session"
+    }
+]
