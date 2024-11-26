@@ -1,4 +1,3 @@
-// App.js
 import React, { useEffect, useState } from "react";
 import Readerboard from "./readerboard";
 import "./App.css";
@@ -14,7 +13,7 @@ function App() {
         const response = await fetch('/data/readerboard_demo.json');
         const data = await response.json();
         console.log("Loaded data:", data);
-        
+       
         const formattedData = data.reduce((acc, item) => {
           const {
             "Event Name": eventName,
@@ -22,7 +21,7 @@ function App() {
             "Time Range": timeRange,
             "Meeting Name": meetingName,
           } = item;
-          
+         
           const event = acc.find((e) => e.eventName === eventName);
           if (event) {
             event.rooms.push({ roomName, timeRange, meetingName });

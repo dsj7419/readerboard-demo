@@ -1,9 +1,11 @@
 .readerboard-container {
-  height: 100%;
-  width: 1080px;
+  height: 100vh;
+  width: 100%;
+  max-width: 1080px;
   overflow: hidden;
   position: relative;
   background: linear-gradient(180deg, rgba(26,29,36,0.95) 0%, rgba(26,29,36,1) 100%);
+  margin: 0 auto;
 }
 
 .fixed-event-title {
@@ -11,8 +13,9 @@
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 1080px;
-  height: 70px;
+  width: 100%;
+  max-width: 1080px;
+  height: clamp(60px, 10vh, 70px);
   background-color: #1a1d24;
   z-index: 10;
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
@@ -25,7 +28,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2.25em;
+  font-size: clamp(1.5rem, 4vw, 2.25em);
   font-weight: bold;
   color: white;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -39,7 +42,7 @@
   height: 100%;
   overflow: hidden;
   position: relative;
-  padding-top: 70px;
+  padding-top: clamp(60px, 10vh, 70px);
 }
 
 .scroll-content {
@@ -50,7 +53,7 @@
 
 .event-group {
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: clamp(50px, 10vh, 100px);
   background: rgba(255, 255, 255, 0.02);
   border-radius: 8px;
   overflow: hidden;
@@ -59,10 +62,10 @@
 
 .event-title {
   position: relative;
-  font-size: 2.25em;
+  font-size: clamp(1.5rem, 4vw, 2.25em);
   font-weight: bold;
   text-align: center;
-  padding: 30px 0;
+  padding: clamp(20px, 4vh, 30px) 0;
   margin-bottom: 15px;
   background: linear-gradient(90deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.1) 50%, rgba(255,255,255,0.05) 100%);
 }
@@ -71,14 +74,15 @@
   display: block;
   color: white;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 0 10px;
 }
 
 .room {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 25px;
-  font-size: 1.2em;
+  padding: clamp(10px, 2vh, 15px) clamp(15px, 3vw, 25px);
+  font-size: clamp(0.9rem, 2.5vw, 1.2rem);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(255, 255, 255, 0.02);
   margin: 0 10px;
@@ -90,24 +94,27 @@
 }
 
 .room-time {
-  flex: 1;
+  flex: 0 0 auto;
+  width: clamp(120px, 25%, 200px);
   text-align: left;
-  padding-right: 15px;
+  padding-right: 10px;
   color: #a0aec0;
 }
 
 .room-name {
-  flex: 2;
+  flex: 1 1 auto;
   text-align: center;
-  padding: 0 20px;
+  padding: 0 clamp(5px, 2vw, 20px);
   color: #ffffff;
   font-weight: 500;
+  min-width: 0;
 }
 
 .room-location {
-  flex: 1;
+  flex: 0 0 auto;
+  width: clamp(100px, 25%, 200px);
   text-align: right;
-  padding-left: 15px;
+  padding-left: 10px;
   color: #a0aec0;
 }
 
@@ -127,4 +134,95 @@
 .readerboard {
   scrollbar-width: none;
   -ms-overflow-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  .room {
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .room-time {
+    order: 1;
+    width: 45%;
+  }
+
+  .room-location {
+    order: 2;
+    width: 55%;
+  }
+
+  .room-name {
+    order: 3;
+    width: 100%;
+    text-align: left;
+    padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .event-group {
+    margin-bottom: 40px;
+  }
+  
+  .room {
+    font-size: clamp(0.8rem, 2vw, 1rem);
+    padding: 8px;
+  }
+
+  .title-content {
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
+  }
+
+  .event-title {
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
+    padding: 15px 0;
+  }
+
+  .room-time {
+    width: 35%;
+  }
+
+  .room-location {
+    width: 65%;
+  }
+
+  .room-name {
+    padding-top: 4px;
+    font-size: clamp(0.8rem, 2vw, 1rem);
+  }
+
+  .fixed-event-title {
+    height: 60px;
+  }
+
+  .readerboard {
+    padding-top: 60px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .room {
+    font-size: clamp(0.75rem, 1.8vw, 0.9rem);
+    padding: 6px;
+  }
+
+  .room-time {
+    width: 40%;
+    padding-right: 5px;
+  }
+
+  .room-location {
+    width: 60%;
+    padding-left: 5px;
+  }
+
+  .title-content {
+    font-size: clamp(1.1rem, 2.8vw, 1.3rem);
+  }
+
+  .event-title {
+    font-size: clamp(1.1rem, 2.8vw, 1.3rem);
+    padding: 12px 0;
+  }
 }

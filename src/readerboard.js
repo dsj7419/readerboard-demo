@@ -34,16 +34,13 @@ function Readerboard({ events }) {
       if (titleElement) {
         const titleRect = titleElement.getBoundingClientRect();
        
-
         if (titleRect.top <= 10 && titleRect.top >= -30) {  
-          const progress = (10 - titleRect.top) / 50; 
+          const progress = (10 - titleRect.top) / 50;
           nextTitle = { text: eventTitle, position: 100 - (progress * 100) };
         }
- 
-        else if (titleRect.top < -30 && rect.bottom > 90) { 
+        else if (titleRect.top < -30 && rect.bottom > 90) {
           nextTitle = { text: eventTitle, position: 0 };
         }
-
         else if (rect.bottom <= 90 && rect.bottom > 40 && nextTitle.text === "") {
           const exitProgress = (90 - rect.bottom) / 50;
           nextTitle = { text: eventTitle, position: -100 * exitProgress };
